@@ -4,6 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Card } from '@/components/ui/card';
 import { Calendar, Award, Users, TrendingUp } from 'lucide-react';
+import personImage from '@/assets/joseAdolfo.png';
 
 const About = () => {
   const { t } = useTranslation();
@@ -107,7 +108,7 @@ const About = () => {
               <Card className="p-8 gradient-card shadow-card">
                 <div className="aspect-video rounded-lg overflow-hidden mb-6">
                   <img 
-                    src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600" 
+                    src={personImage}
                     alt="Adolfo Quisocala"
                     className="w-full h-full object-cover"
                   />
