@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { ArrowRight, Recycle, Smartphone, TrendingUp, BookOpen, Globe, Users } from 'lucide-react';
-import heroImage from '@/assets/hero-image.jpg';
+import heroImage from '@/assets/hero-image.png';
 
 const Home = () => {
   const { t } = useTranslation();
