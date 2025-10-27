@@ -130,3 +130,85 @@
     color: transparent;
   }
 }
+
+
+        /* --- Importa Google Font --- */
+
+
+:root {
+/* Paleta: Negro, Gris y Blanco (Dark Mode) */
+--chat--color-primary: #FFFFFF;           /* Blanco - Usado para el botón de Toggle */
+--chat--color-primary-shade-50: #E0E0E0;  /* Gris claro (Hover) */
+--chat--color-primary-shade-100: #C0C0C0; /* Gris (Active) */
+
+--chat--color-secondary: #EAEAEA;         /* Gris muy claro - Fondo de msj. de usuario */
+--chat--color-secondary-shade-50: #D0D0D0;
+
+--chat--color-white: #FFFFFF;             /* Blanco puro */
+--chat--color-light: #1E1E1E;             /* Oscuro - Fondo principal del chat */
+--chat--color-light-shade-50: #2C2C2C;    /* Gris oscuro (Bordes) */
+--chat--color-light-shade-100: #3C3C3C;
+
+--chat--color-medium: #666666;            /* Gris medio (Placeholder, footer) */
+--chat--color-dark: #121212;              /* Negro - Fondo del Header */
+--chat--color-disabled: #444444;
+--chat--color-typing: #AAAAAA;
+
+/* --- Diseño Moderno y Tipografía --- */
+--chat--border-radius: 0.75rem; /* Esquinas más redondeadas */
+--chat--font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+
+/* Header (Cabecera) */
+--chat--header--background: var(--chat--color-dark);
+--chat--header--color: #EAEAEA; /* Texto del header claro */
+--chat--header--border-bottom: 1px solid var(--chat--color-light-shade-50);
+
+/* Mensajes */
+--chat--message--bot--background: #2B2B2B; /* Burbuja del Bot (Gris oscuro) */
+--chat--message--bot--color: #E0E0E0;      /* Texto del Bot (Gris claro) */
+
+--chat--message--user--background: var(--chat--color-secondary); /* Burbuja Usuario (Gris claro) */
+--chat--message--user--color: #121212;      /* Texto Usuario (Negro) */
+
+/* Botón Flotante (Toggle) */
+--chat--toggle--background: var(--chat--color-primary);
+--chat--toggle--color: #121212; /* Icono del botón (Negro) */
+--chat--toggle--hover--background: var(--chat--color-primary-shade-50);
+--chat--toggle--active--background: var(--chat--color-primary-shade-100);
+
+/* Área de Input (Donde escribes) */
+--chat--input--background: #2B2B2B;     /* Fondo del input (Gris oscuro) */
+--chat--input--text-color: #FFFFFF;     /* Texto al escribir (Blanco) */
+--chat--input--border: 1px solid var(--chat--color-light-shade-50);
+
+/* Iconos de Enviar y Archivo */
+--chat--input--send--button--background: transparent;
+--chat--input--send--button--color: #BBBBBB; /* Icono Enviar (Gris) */
+--chat--input--send--button--background-hover: transparent;
+--chat--input--send--button--color-hover: #FFFFFF; /* Icono Enviar (Blanco) */
+
+--chat--input--file--button--background: transparent;
+--chat--input--file--button--color: #BBBBBB; /* Icono Archivo (Gris) */
+--chat--input--file--button--color-hover: #FFFFFF; /* Icono Archivo (Blanco) */
+
+/* Fondo principal y Footer */
+--chat--body--background: var(--chat--color-light);
+--chat--footer--background: var(--chat--color-light);
+--chat--footer--color: var(--chat--color-medium);
+}
+
+/* Opcional: Burbujas de chat un poco más anchas */
+.chat-message {
+max-width: 75%;
+}
+
+/* Opcional: Sombra sutil para el botón flotante */
+.chat-toggle-button {
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Opcional: Sombra sutil para la ventana del chat */
+.chat-window {
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}

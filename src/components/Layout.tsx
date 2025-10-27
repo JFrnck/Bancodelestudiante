@@ -1,6 +1,7 @@
 import {type ReactNode } from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import N8nChatWidget from './N8nChatWidget';
 
 interface LayoutProps {
   children: ReactNode;
@@ -13,6 +14,7 @@ const Layout = ({ children }: LayoutProps) => {
       <main className="flex-grow">
         {children}
       </main>
+      <N8nChatWidget/>
       <Footer />
     </div>
   );
