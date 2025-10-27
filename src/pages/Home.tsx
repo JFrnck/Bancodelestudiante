@@ -251,7 +251,7 @@ const Home = () => {
             className="max-w-3xl mx-auto text-center space-y-6"
           >
             <h2 className="text-4xl md:text-5xl font-bold">
-               ¿Listo para comenzar tu futuro financiero?
+               ¿Listo para comenzar su futuro financiero?
             </h2>
             <p className="text-xl text-muted-foreground">
               Únete a miles de estudiantes que ya están transformando el reciclaje en oportunidades
