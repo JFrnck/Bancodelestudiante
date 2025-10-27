@@ -108,13 +108,13 @@ const Home = () => {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link to="/about">
-                  <Button size="lg" className="gradient-primary shadow-glow group">
+                <Link to="https://forms.gle/UHktWp83F9yWQMS7A">
+                  <Button size="lg" className="gradient-primary shadow-glow group animate-pulse">
                     {t('hero.cta')}
                     <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </Link>
-                <Link to="/contact">
+                <Link to="https://api.whatsapp.com/send/?phone=932928451&text=👋%20Hola%20Banco%20del%20Estudiante%20BARTSELANA!%20💙%0AEstoy%20interesado(a)%20en%20conocer%20más%20sobre%20su%20proyecto%20y%20cómo%20funciona.%20🌱%20💰%20✨">
                   <Button size="lg" variant="outline" className="border-primary hover:bg-primary hover:text-primary-foreground">
                     {t('hero.learnMore')}
                   </Button>
@@ -251,20 +251,20 @@ const Home = () => {
             className="max-w-3xl mx-auto text-center space-y-6"
           >
             <h2 className="text-4xl md:text-5xl font-bold">
-              ¿Listo para comenzar tu futuro financiero?
+               ¿Listo para comenzar tu futuro financiero?
             </h2>
             <p className="text-xl text-muted-foreground">
               Únete a miles de estudiantes que ya están transformando el reciclaje en oportunidades
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-              <Link to="/about">
+              <Link to="https://forms.gle/UHktWp83F9yWQMS7A">
                 <Button size="lg" className="gradient-primary shadow-glow">
-                  {t('nav.about')}
+                  {t('hero.cta')}
                 </Button>
               </Link>
-              <Link to="/contact">
+              <Link to="https://api.whatsapp.com/send/?phone=932928451&text=👋%20Hola%20Banco%20del%20Estudiante%20BARTSELANA!%20💙%0AEstoy%20interesado(a)%20en%20conocer%20más%20sobre%20su%20proyecto%20y%20cómo%20funciona.%20🌱%20💰%20✨">
                 <Button size="lg" variant="outline" className="border-primary">
-                  {t('nav.contact')}
+                  {t('hero.learnMore')}
                 </Button>
               </Link>
             </div>

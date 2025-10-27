@@ -29,7 +29,7 @@ const Navbar = () => {
     { path: '/', label: t('nav.home') },
     { path: '/about', label: t('nav.about') },
     { path: '/contact', label: t('nav.contact') },
-    { path: '/donations', label: t('nav.donations') },
+    { path: 'https://forms.gle/UHktWp83F9yWQMS7A', label: t('nav.donations') },
   ];
 
   return (
@@ -71,7 +71,7 @@ const Navbar = () => {
               <Globe className="h-4 w-4" />
               {i18n.language.toUpperCase()}
             </Button>
-            <Link to="/login">
+            <Link to="https://forms.gle/UHktWp83F9yWQMS7A">
               <Button className="gradient-primary">
                 {t('nav.login')}
               </Button>
@@ -116,7 +116,7 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
-            <Link to="/login" onClick={() => setIsOpen(false)}>
+            <Link to="https://forms.gle/UHktWp83F9yWQMS7A" onClick={() => setIsOpen(false)}>
               <Button className="w-full gradient-primary">
                 {t('nav.login')}
               </Button>

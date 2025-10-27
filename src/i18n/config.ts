@@ -9,14 +9,14 @@ const resources = {
         about: 'Nosotros',
         contact: 'Contacto',
         donations: 'Donaciones',
-        login: 'Iniciar Sesión'
+        login: 'Banca por Internet'
       },
       hero: {
         title: 'Banco del Estudiante',
         subtitle: 'Bartselana',
-        description: 'Transforma tus ecomonedas en oportunidades financieras',
-        cta: 'Comenzar Ahora',
-        learnMore: 'Conoce Más'
+        description: 'Educación e inclusión financiera para niños, adolescentes y jovenes',
+        cta: 'Regístrese Ahora',
+        learnMore: 'WhatsApp'
       },
       flow: {
         title: 'Cómo Funciona',
@@ -124,7 +124,7 @@ const resources = {
       hero: {
         title: 'Student Bank',
         subtitle: 'Bartselana',
-        description: 'Transform your ecocoins into financial opportunities',
+        description: 'Financial education and inclusion for children and young people',
         cta: 'Get Started',
         learnMore: 'Learn More'
       },
