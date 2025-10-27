@@ -17,7 +17,7 @@ const N8nChatWidget: React.FC = () => {
   useEffect(() => {
     // 1. Usamos import() dinámico. Esto DEVUELVE una promesa
     // que se resuelve CUANDO el script está cargado.
-    import('https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js')
+    import ('https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js')
       .then((chatModule) => {
         // 2. AHORA estamos seguros de que chatModule existe
         const { createChat } = chatModule as N8nChatModule;
